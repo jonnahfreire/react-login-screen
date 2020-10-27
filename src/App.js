@@ -17,12 +17,12 @@ export const App = () => {
             <form action="/">
             	<h1>LOGIN</h1>
                 
-	            <TextInput type="text" placeholder="Username"/>
-	            <TextInput type="password" placeholder="Password"/>
+	        <TextInput type="text" placeholder="Username"/>
+	        <TextInput type="password" placeholder="Password"/>
            		
-           		<div className="pass-recover">
-					<a href="/">Forgot your password</a>
-           		</div>
+           	<div className="pass-recover">
+			<a href="/">Forgot your password</a>
+           	</div>
 
             	<div className="login-btn">
             		<button>LOGIN</button>
